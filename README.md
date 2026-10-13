@@ -425,8 +425,7 @@ This is an educational prototype trained on the simulated PaySim dataset. It is 
 
 ## 📄 License
 
-This project is developed for educational purposes.
----
+This project is developed for educational purposes and released under the [MIT License](LICENSE).
 
 ## 👩‍💻 Author
 
