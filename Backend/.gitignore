@@ -1,0 +1,29 @@
+# Environment & Secrets
+.env
+.env.*
+*.env
+.env.local
+!.env.example
+
+# Virtual Environment
+venv/
+.venv/
+
+# Python Bytecode & Cache
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.coverage
+
+# Editor & OS
+.vscode/
+.idea/
+.DS_Store
+*.log
+
+# Datasets
+*.csv

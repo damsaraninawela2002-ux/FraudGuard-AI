@@ -1,0 +1,63 @@
+# Environment & Secrets (NEVER commit real .env files)
+.env
+.env.*
+*.env
+.env.local
+Backend/.env
+Backend/.env.*
+frontend/.env
+frontend/.env.*
+!.env.example
+!Backend/.env.example
+!frontend/.env.example
+
+# Python Virtual Environments
+venv/
+.venv/
+**/venv/
+**/.venv/
+Backend/venv/
+
+# Node Dependencies & Build Artifacts
+node_modules/
+**/node_modules/
+dist/
+dist-ssr/
+**/dist/
+**/dist-ssr/
+
+# Python Cache, Bytecode & Test Artifacts
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+**/.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE & OS Files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ML Raw & Processed Datasets (PaySim CSVs are large; keep .gitkeep)
+ml/data/raw/*
+!ml/data/raw/.gitkeep
+ml/data/processed/*
+!ml/data/processed/.gitkeep
+*.csv
+!ml/reports/threshold_analysis.csv
+
+# Note: Trained model artifacts in ml/models/*.joblib (~195 KB total) and
+# evaluation reports in ml/reports/ are intentionally tracked so the deployed
+# backend service can run real XGBoost + SHAP inference out of the box.

@@ -1,0 +1,16 @@
+{
+  "model_name": "XGBClassifier",
+  "precision": 0.88,
+  "recall": 0.7333,
+  "f1_score": 0.8,
+  "pr_auc": 0.8246,
+  "roc_auc": 0.9963,
+  "confusion_matrix": {
+    "tn": 5967,
+    "fp": 3,
+    "fn": 8,
+    "tp": 22
+  },
+  "threshold": 0.5,
+  "trained_at": "2026-10-12T21:49:47.515767"
+}

@@ -1,0 +1,13 @@
+[
+  "amount",
+  "hour_of_day",
+  "old_balance_origin",
+  "new_balance_origin",
+  "old_balance_dest",
+  "new_balance_dest",
+  "transaction_type_CASH_IN",
+  "transaction_type_CASH_OUT",
+  "transaction_type_DEBIT",
+  "transaction_type_PAYMENT",
+  "transaction_type_TRANSFER"
+]
